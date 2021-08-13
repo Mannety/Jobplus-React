@@ -2,7 +2,7 @@ import { AppBar, Collapse, IconButton } from '@material-ui/core'
 import React, { useState } from 'react'
 import Alert from '@material-ui/lab/Alert';
 import { makeStyles } from '@material-ui/styles';
-import { classes } from 'istanbul-lib-coverage';
+
 import CloseIcon from '@material-ui/icons/Close';
 
 const useStyles = makeStyles((theme) => ({

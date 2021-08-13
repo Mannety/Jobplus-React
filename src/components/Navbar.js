@@ -93,7 +93,8 @@ export default function Navbar() {
           return false;
       }
     })
-  }, [window.location.pathname])
+  }, 
+)
 
   return (
     <Box>
